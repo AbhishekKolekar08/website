@@ -1,8 +1,11 @@
-title: Hehehe
+title: Pandemonium
 author: Abhishek Kolekar
 url: https://abhishek-kolekar.pages.dev/ # root address of the site
-description: > # description of the site (multiple lines allowed)
-  Lorem ipsum, my name is Abhishek Kolekar, and I test the waters of website building
+description: |
+  Hello there, I have the higher grou&mdash; <em>copyright strike</em>&mdash; uhm, well... I am Abhishek.
+  <br>
+  <br>
+  Hi! Welcome to my mismatch of a personal-professional website, where I attempt to capture my incoherent thoughts flying around at warp speed, and present them in a (hopefully) coherent fashion.
 
 permalink: /:slug
 
