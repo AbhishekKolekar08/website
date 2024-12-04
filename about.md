@@ -3,6 +3,6 @@ layout: post
 title: About
 ---
 
-This is an example page!
+Lorem ipsum lorem ipsum
 
-Actually, it has the same layout of a post...
+## Loremz
