@@ -1,3 +1,9 @@
+---
+layout: post
+author: Abhishek Kolekar
+tags: [automotive]
+---
+
 > **"Those who cannot remember the past are condemned to repeat it."**
 
 The quote, taken from George Santayana's book [_The Life of Reason_](https://www.gutenberg.org/files/15000/15000-h/15000-h.htm) (1905), is echoed by Winston Churchill, and gives a cautionary tales of the past and the future. Time and again, humanity has fallen into the trap of speculative excess, resulting in catastrophic outcomes like:
