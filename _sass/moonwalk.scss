@@ -4,13 +4,17 @@
 html { height: 100%; }
 
 body {
+  overflow-y: scroll;
   font-family:  "Inter", -apple-system, "avenir next", avenir, roboto, noto, ubuntu, "helvetica neue", helvetica, sans-serif;
   font-size: 1.1rem;
   line-height: 2;
   margin: 0;
   min-height: 100%;
   text-align: justify;
+  scrollbar-width: thin; /* Options: auto, thin, none */
+  scrollbar-color: #888 #f1f1f1; /* Thumb color, Track color */
 }
+
 pre, code {
   font-family: "Roboto Mono", "Courier New", monospace;
   font-size: 0.9rem;
@@ -114,15 +118,38 @@ html[data-theme="light"] { @include light-appearance; }
   
 // -------------------------------------------- //
 
+html::-webkit-scrollbar {
+  width: 4px; /* Adjust width */
+}
+
+html::-webkit-scrollbar-track {
+  background: var(--bg); /* Track color */
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #888; /* Scrollbar color */
+  border-radius: 10px; /* Rounded edges */
+}
+
 html, body {
-    background-color: var(--bg);
-    color: var(--text);
+  
+  background-color: var(--bg);
+  color: var(--text);
 }
 h1, h2, h3, h4, h5, h6 {
-    color: var(--headings);
+  color: var(--headings);
 }
 p, strong, b, em, small, li, hr, table, figcaption {
-    color: var(--text);
+  color: var(--text);
+}
+figcaption {
+  color: var(--text);
+  font-style: italic;
+  font-size: 0.9em;
+}
+figure {
+  text-align: center;
+  margin: 20px auto;
 }
 .highlight, pre code, blockquote {
   border-radius: 0.5em;

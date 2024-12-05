@@ -17,15 +17,15 @@
 {% endif %}
 </p>
 
-<div class="soopr-btn"
-   data-twitter="SooprCo"
->
-</div>
+{% assign show_soopr = page.show_soopr | default: true %}
+{% if show_soopr != "false" %}
+  <div class="soopr-btn" data-twitter="SooprCo"></div>
 
-{% if site.theme_config.show_tags == true %}
-  <div class="">
-    {% for tag in page.tags %}
-    <span class="tag">{{ tag }}</span>
-    {% endfor %}
-  </div>
+  {% if site.theme_config.show_tags == true %}
+    <div class="">
+      {% for tag in page.tags %}
+      <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+  {% endif %}
 {% endif %}

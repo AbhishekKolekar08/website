@@ -30,7 +30,13 @@ ul.horizontal-list {
   border-radius: 0.5em;
 
   .header {
-    color: var(--links);
+    color: var(--links);         /* Ensure this is defined */
+    font-size: 1.2em;            /* Adjust font size */
+    font-weight: bold;           /* Make the header bold */
+    margin-bottom: 0.5em;        /* Add space below the header */
+    text-transform: uppercase;   /* Optional: make the header text uppercase */
+    letter-spacing: 1px;         /* Optional: adjust letter spacing for a more professional look */
+    text-align: center;          /* Ensure text is centered */
   }
 
   .body {
