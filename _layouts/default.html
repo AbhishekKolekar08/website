@@ -10,7 +10,11 @@
         {% endif %}
         <div class="credits">
           {%- if site.theme_config.show_copyright == true -%}
-          &copy;&nbsp;{{ "now" | date: "%Y" }}&nbsp;{{site.author}}
+          &copy;&nbsp;{{ "now" | date: "%Y" }}&nbsp;<b>{{site.author}}</b>
+          &nbsp;
+          •
+          &nbsp;
+          <a href="/legal/t&c-usage" target="_blank" rel="noreferrer">Terms & Conditions of Use</a>
           &nbsp;
           •
           &nbsp;

@@ -6,7 +6,7 @@ html { height: 100%; }
 body {
   overflow-y: scroll;
   font-family:  "Inter", -apple-system, "avenir next", avenir, roboto, noto, ubuntu, "helvetica neue", helvetica, sans-serif;
-  font-size: 1.0rem;
+  font-size: 1.1rem;
   line-height: 2;
   margin: 0;
   min-height: 100%;
@@ -20,7 +20,7 @@ pre, code {
   font-size: 0.9rem;
 }
 
-h2, h3, h4, h5 { margin-top: 1.5em; }
+h2, h3, h4, h5 { margin-top: 1.2em; }
 
 hr { margin: 1em 0; }
 
@@ -61,7 +61,7 @@ blockquote {
   padding: 0.9em;
   display: block; /* Ensure it behaves like a block element */
   width: fit-content; /* Adjusts width to content size */
-  margin: 0 auto; /* Centers the blockquote */
+  margin: 1rem auto; /* Centers the blockquote */
 }
 
 
@@ -200,8 +200,10 @@ html.transition *:after {
 }
 .dashed {
   border-top: 1px var(--text) dashed;
-  margin: 0.5em 0;
+  margin-top: 2em; 
+  margin-bottom: 0.5em; 
 }
+
 mark {
   padding: 0.4em;
   background-color: var(--highlight);
@@ -246,7 +248,7 @@ p code, li code {
 .credits {
   font-size: 0.8em;
   color: var(--text);
-  margin: 8em auto -4em auto;
+  margin: 6em auto -4em auto;
   text-align: center;
   a {
     color: var(--text);
