@@ -5,7 +5,7 @@ show_soopr: "false"
 ---
 **Effective Date**: December 16, 2024  
 
-Welcome to **Pandemonium** ("Website," "I," "me," or "my"). By accessing, browsing, or using this Website, you agree to be bound by these Terms & Conditions. If you do not agree to these terms, you must discontinue use of the Website immediately.  
+Welcome to **Pandemonium** ("Website," "I," "me," or "my"). By accessing, browsing, or using this Website, you agree to be bound by these Terms & Conditions.  
 
 For any inquiries regarding these Terms, you may contact me at:  
 📧 **Email**: [abhishek_kolekar@outlook.com](mailto:abhishek_kolekar@outlook.com)  
