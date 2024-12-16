@@ -6,7 +6,7 @@ html { height: 100%; }
 body {
   overflow-y: scroll;
   font-family:  "Inter", -apple-system, "avenir next", avenir, roboto, noto, ubuntu, "helvetica neue", helvetica, sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.0rem;
   line-height: 2;
   margin: 0;
   min-height: 100%;
@@ -58,10 +58,12 @@ div.highlighter-rouge pre code, pre code.highlighter-rouge {
 blockquote {
   font-style: italic;
   border: thin solid black;
-  padding: 1em;
-
-  p { margin: 0; }
+  padding: 0.9em;
+  display: block; /* Ensure it behaves like a block element */
+  width: fit-content; /* Adjusts width to content size */
+  margin: 0 auto; /* Centers the blockquote */
 }
+
 
 img {
   max-width: 100%;
@@ -84,17 +86,17 @@ img {
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
   html, body  {
-    --bg: #0a0615;
+    --bg: #0f0b18;
     --bg-secondary: #1a0f2e;
     --headings: #b39ddb;
-    --text: #E0E0E0;
+    --text: #e7e7e7;
     --text-secondary: #b0b0b0;
     --links: #8c4eff;
     --highlight: #6c8fff;
     --code-text: #91A7FF;
     --share-text: #C4C4C4;    
          
-    // --bg: #1a1423;
+    // --bg: #0e091b;
       // --bg-secondary: #323945;
       // --headings: #c9acf3;
       // --text: #adb5bd;
@@ -236,7 +238,7 @@ p code, li code {
   font-weight: bold;
 }
 .post-title {
-  margin-bottom:-1.5rem;
+  margin-bottom: 0rem;
 }
 .project-title {
   margin-bottom: 0.8rem;
@@ -261,6 +263,7 @@ p code, li code {
   padding: 0.4em 1em;
   margin-right: 0.5em;
   border-radius: 1em;
+  margin-bottom: 1rem;
   background-color: var(--bg-secondary);
   font-size: 0.7em;
   font-weight: bold;
