@@ -78,4 +78,4 @@ True progress in the automotive industry will come not from a rush to adopt a si
 ---
 <i><b>Author's note</b></i>: 
 <br>This analysis primarily explores the gap between consumer preferences and the evolving dynamics of the automotive industry. However, it is essential to acknowledge that many other factors—such as legislation, trade restrictions, supply chain disruptions, government programs and incentives, and geopolitics—also play critical roles in shaping the industry's landscape. These complexities must be considered when evaluating the future of automotive technologies and market trends. 
-<br>The post aims not to criticize emerging technologies but to offer a lens of guarded optimism for viewing hyped trends.
+<br><br>Additonally, the objective of this post is not to criticize emerging technologies but to offer a lens of guarded optimism for viewing hyped-up trends.
